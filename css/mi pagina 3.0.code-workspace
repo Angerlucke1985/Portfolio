@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../../../Downloads/vanta-master/vanta-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "vanta-master"
+	}
+}

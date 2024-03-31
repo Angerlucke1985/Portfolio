@@ -1,0 +1,40 @@
+.wrapper{
+    margin-top: 5%;
+    padding-left: 150%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: auto;
+}
+
+.dc {
+    font-family: Monospace;
+    margin-left: 700px;
+    width:200px;
+    height:70px;
+    background: linear-gradient(to left top, #83fa7b 50%, #82fe6f);
+    border-style: none;
+    color:#fff;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+.dc span{
+    position: absolute;
+    display: block;
+}
+
+.dc:hover{
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
+.dc:hover span{
+    animation-play-state: paused;
+}

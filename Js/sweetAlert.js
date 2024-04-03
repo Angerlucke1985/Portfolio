@@ -52,7 +52,6 @@ Swal.fire({
   showCloseButton: true,
   // closeButtonAriaLabel:
 
-
   // imageUrl:
   // imageWidth:
   // imageHeight:

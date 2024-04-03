@@ -1,7 +1,6 @@
 Swal.fire({
-
-   title: '<img class="gif" src="img del principio/5ln4.gif">',
-  // text:
+  title: '<video class="gif" src="img del principio/Gif intro.mp4" autoplay muted playinline loop>',
+  text: '¡Bienvenido/a!',
   // html:
   // icon: 'error'
   // confirmButtonText:
@@ -15,7 +14,7 @@ Swal.fire({
   // timerProgressBar:
   // toast:
   // position:
-   allowOutsideClick: false,
+  allowOutsideClick: false,
   allowEscapeKey: false,
   // allowEnterKey:
   stopKeydownPropagation: true,
@@ -32,11 +31,11 @@ Swal.fire({
   // 	title:
   // 	closeButton:
   // 	icon:
-  // 	image:
+  //  image:
   // 	content:
   // 	input:
   // 	actions:
-  // confirmButton: '200px',
+  //  confirmButton:
   // 	cancelButton:
   // 	footer:	
 

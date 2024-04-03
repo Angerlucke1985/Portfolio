@@ -1,13 +1,12 @@
 *{
-
-    cursor: url('/logosTecnologias/puntero.png'), auto;
     margin: center;
 
     box-sizing: border-box;
     font-family: Monospace;
 }
 html{
-   scroll-behavior: smooth;
+    margin: auto;
+    scroll-behavior: smooth;
 }
 body {
 
@@ -18,7 +17,7 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb {
     border-radius: 5px;
-    background: rgb(242, 255, 5);
+    background: rgb(242, 255, 0);
 
 }
 :root{
@@ -35,7 +34,8 @@ body::-webkit-scrollbar-thumb {
 /**/
 
 .gif {
-    width: 90%;
+    width: 50%;
+
 }
 
 /*seccion 2*/
@@ -53,19 +53,13 @@ body::-webkit-scrollbar-thumb {
 #aqui2 {
     margin-top: 100px;
 }
-
-.seccion2 {
-
-}
 /*{
-    width: 36.3cm;
-    width: 1371px;
-    width: 201vh;
+    width: 1471px;
 }*/
-.fondo2 {
+.fondo2r {
     overflow: hidden;
-    height: 800px;
-    width: 1510px;
+    width: 1508px;
+
 }
 .fondo2r {
 
@@ -93,9 +87,9 @@ body::-webkit-scrollbar-thumb {
     border:  rgb(255, 255, 255);
     width: 250px;
     
-    --g: 10px;
-    --b: 32px;
-    --c: #dee13c;
+    --g: 20px;
+    --b: 20px;
+    --c: #ffff52;
     
     padding: calc(var(--g) + var(--b));
     --_c: #0000 0 25%, var(--c) 0 50%;
@@ -164,11 +158,11 @@ body::-webkit-scrollbar-thumb {
     margin-left: 1%;
     margin-top: 20px;
 }
-#contacto-tit {
-    text-align: center;
-    margin-top: 5%;
-    font-size: 30px;
+.texto {
+    
 }
+
+
 .seccion3-container {
 
 }
@@ -180,7 +174,8 @@ body::-webkit-scrollbar-thumb {
 
 } 
 #fondo1 {
-    display: flex;
+    margin-top: 30px;
+
     width: 1510px;
     height: 800px;
 }
@@ -262,12 +257,13 @@ a:hover li {
 }
 
 #Inicio-menu, #proyectos-menu, #contacto-menu {
-    
+
     cursor: pointer;
     margin-inline: 60px;
     display: inline-block;
 }
 #Inicio-menu:hover, #proyectos-menu:hover, #contacto-menu:hover{
+
     border: 3px solid rgb(253, 252, 251);
     border-radius: 10px;
 }
@@ -282,6 +278,12 @@ dsa{
     margin-left: -10vh;
 }
 #menu-horizontal{
+    color: #ffffff;
+    text-shadow:
+      2px 2px 0 #000,
+      2px 2px 0 #000,
+      2px 2px 0 #000,
+      2px 2px 0 #000;
     margin-left: -70px;
 }
 #menu-vertical > li > a {
@@ -297,7 +299,12 @@ dsa{
     position: fixed;
     width: 230px;
     margin-left: -40px;
-    color: white;
+    color: #ffffff;
+    text-shadow:
+      1px 1px 0 #000,
+      1px 1px 0 #000,
+      1px 1px 0 #000,
+      1px 1px 0 #000;
     display: none;
     list-style: none;
     background-color: rgb(103, 241, 103);
@@ -305,14 +312,17 @@ dsa{
     border-radius: 10px;
 
 }
-#menu-horizontal li:hover #menu-vertical{
 
+#menu-horizontal li:hover #menu-vertical {
     display: block;
 }
 #menu-vertical li:hover{
+    transform: scaleX(1);
     transition: 0.8s;
-    background-color: #e4e706;
+    background-color: #d1cfcf;
+    
 }
+
 .inactive{
     display: none;
 }
@@ -323,16 +333,8 @@ dsa{
 }
 
 .seccion2-container {
+
 }
-
-.Proyectos-tit {
-
-    text-align: center;
-    color: white;
-    margin-top: -920px;
-    font-size: 30px;
-}
-
 .titular {
 
 }
@@ -358,11 +360,17 @@ dsa{
     margin-block-start: 100px;
     justify-content: center;
     margin-inline-start: 30%;
-
+    
     position: relative;
     overflow: hidden;
     border: 4px solid #ffffff;
-    color: #ffffff;
+    color: #fff;
+    text-shadow:
+      2px 2px 0 #000,
+      2px 2px 0 #000,
+      2px 2px 0 #000,
+      2px 2px 0 #000;
+
     display: inline-block;
     font-size: 15px;
     line-height: 15px;
@@ -429,7 +437,7 @@ dsa{
 }
 
 header{
-    
+
     z-index: 99;
     margin-top: -10px;
     color: white;
@@ -437,8 +445,8 @@ header{
     overflow: visible;
     width: 100%;
     display: flex;
-    background: rgb(35, 61, 117);
-    border-bottom: 2px solid rgb(255, 255, 0);
+    background: rgb(204, 25, 25);
+    border-bottom: 5px solid rgb(255, 255, 0);
     transition: 0.7s;
 
 }
@@ -455,7 +463,7 @@ header ul {
     
 }
 header ul li:hover{
-    background-color: #e5e100;
+    background-color: #b8b8b8;
     cursor: pointer;
     border: 1px solid rgb(253, 252, 251);
     border-radius: 10px;
@@ -493,9 +501,6 @@ header ul li:hover{
 }
 /* estilos del hero */
 
-#hero{
-    
-}
 #fondo{
 
 }
@@ -509,7 +514,6 @@ header ul li:hover{
     cursor: pointer;
 }
 .seccionn1 {
-
     width: 800px;
     margin-top: -600px;
     margin-left: 25%;
@@ -522,15 +526,16 @@ header ul li:hover{
     margin-left: 8%;
     font-weight:lighter;
 }
-#nombreynick:hover {
-    
-    transition: .5;
-}
 .nick1 {
     margin-top: -20px;
 }
 #nombreynick {
-
+    color: #fff;
+    text-shadow:
+      3px 3px 0 #000,
+      3px 3px 0 #000,
+      3px 3px 0 #000,
+      3px 3px 0 #000;
 }
 .descripcion {
     display: block;
@@ -540,11 +545,19 @@ header ul li:hover{
 
 }
 .descripcion1 {
-
+    color: #fff;
+    text-shadow:
+      1px 1px 0 #000,
+      1px 1px 0 #000,
+      1px 1px 0 #000,
+      1px 1px 0 #000;
     display: block;
     height: 200px;
     overflow-y: scroll;
 
+}
+#hero {
+    
 }
 #hero .informacion-contenedor .informacion{
     font-size: 32px;
@@ -593,7 +606,13 @@ main .social-icons li{
 
 #input {
     font-size: 35px;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
+    text-shadow:
+      2px 3px 0 #000,
+      2px 3px 0 #000,
+      2px 3px 0 #000,
+      2px 3px 0 #000;
+    
     margin-top: -500px;
     margin-left: 350px;
 }
@@ -615,7 +634,7 @@ main .social-icons li{
 
 #redes1 {
     height: 150px;
-    background: rgb(34, 62, 121);
+    background: rgb(204, 25, 25);
     margin-top: -500px;
 }
 .icono-social {

@@ -1,0 +1,91 @@
+
+.w3rcontainer{
+   border: 1px solid #cccfdb;
+   border-radius: 2px;
+} 
+.tit-proyectos {
+   position: relative;
+   text-align: center;
+   color: #fff;
+   text-shadow:
+      3px 3px 0 #000,
+      3px 3px 0 #000,
+      3px 3px 0 #000,
+      3px 3px 0 #000;
+   margin-top: -920px;
+   font-size: 40px;
+}
+
+#contacto-tit {
+   position: relative;
+   color: #fff;
+   text-shadow:
+      3px 3px 0 #000,
+      3px 3px 0 #000,
+      3px 3px 0 #000,
+      3px 3px 0 #000;
+   text-align: center;
+   margin-top: 5%;
+   font-size: 40px;
+}
+
+#contacto-tit:after, .tit-proyectos:after {
+   content: '';
+   position: absolute;
+   width: 13%;
+   margin-left: 44%;
+   transform: scaleX(0);
+   height: 6px;
+   bottom: 0;
+   left: 0;
+   background-color: #1ee607;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+}
+.nombre:after {
+   content: '';
+   position: absolute;
+   width: 28%;
+   margin-left: 39%;
+   top: 210px;
+   transform: scaleX(0);
+   height: 6px;
+   bottom: 0;
+   left: 0;
+   background-color: #1ee607;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+}
+.nick:after {
+   content: '';
+   position: absolute;
+   width: 15%;
+   margin-left: 41%;
+   z-index: 99;
+   top: 270px;
+   transform: scaleX(0);
+   height: 6px;
+   bottom: 0;
+   left: 0;
+   background-color: #1ee607;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+}
+#contacto-tit:hover:after, .tit-proyectos:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+}
+
+.nombre:hover:after {
+   top: 210px;
+   transform: scaleX(1);
+   transform-origin: bottom left;
+}
+.nick:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+   top: 270px;
+}
+
+
+

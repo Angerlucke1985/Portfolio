@@ -47,7 +47,7 @@
    position: absolute;
    width: 28%;
    margin-left: 39%;
-   top: 240px;
+   top: 220px;
    transform: scaleX(0);
    height: 6px;
    bottom: 0;
@@ -62,7 +62,7 @@
    width: 15%;
    margin-left: 41%;
    z-index: 99;
-   top: 300px;
+   top: 270px;
    transform: scaleX(0);
    height: 6px;
    bottom: 0;
@@ -77,20 +77,20 @@
 }
 
 .nombre:hover:after {
-   top: 240px;
+   top: 220px;
    transform: scaleX(1);
    transform-origin: bottom left;
 }
 .nick:hover:after {
    transform: scaleX(1);
    transform-origin: bottom left;
-   top: 300px;
+   top: 270px;
 }
 
 .habilidades-tit:hover:after {
    transform: scaleX(1);
    transform-origin: bottom left;
-   top: 572px;
+   top: 592px;
 }
 
 .habilidades-tit:after {
@@ -99,7 +99,7 @@
    width: 13%;
    margin-left: 43%;
    z-index: 99;
-   top: 572px;
+   top: 592px;
    transform: scaleX(0);
    height: 6px;
    bottom: 0;

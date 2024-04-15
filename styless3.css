@@ -49,7 +49,7 @@
     }
 
     #seccion3 {
- 
+        z-index: 30;
         padding: 20px;
     }
 
@@ -150,14 +150,15 @@ body::-webkit-scrollbar-thumb {
 
 }
 #perfil {
+
     border-radius: 5%;
     border:  rgb(255, 255, 255);
-    width: 250px;
+    width: 270px;
     
     --g: 20px;
     --b: 20px;
     --c: #ffff52;
-    
+
     padding: calc(var(--g) + var(--b));
     --_c: #0000 0 25%, var(--c) 0 50%;
     --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
@@ -175,8 +176,8 @@ body::-webkit-scrollbar-thumb {
     filter: grayscale(0%);
 }
 #perfil1  {
-    margin-left: -5%;
-    margin-top: -40%;
+    margin-top: 40px;
+    margin-left: -8%;
 }
 .boton2{
     height: 65px;
@@ -215,33 +216,21 @@ body::-webkit-scrollbar-thumb {
 
 /**/
 
-
 #aqui {
     margin-top: 100px;
 }
 #fondo3 {
-    display:block;
-    margin-left: 1%;
-    margin-top: 40px;
+    display: flex;
+    margin-left: 3%;
+    margin-top: 60px;
 
 }
-.img-fondo3 {
-    margin-top: 30px;
-}
-.texto {
-    
-}
-
-.skills {
-
-}
-
 #fondo1 {
     
     background-size: cover;
     background-position: center;
 
-    margin-top: 40px;
+    margin-top: 10px;
     width: 1510px;
     height: 800px;
 }
@@ -463,7 +452,7 @@ dsa{
 .btn span:first-child {
     position: relative;
     transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
-    z-index: 10;
+    z-index: 1;
 }
 
 .btn span:last-child {
@@ -518,16 +507,15 @@ nav {
 }
 
 header{
-
     padding-left: -100vh;
-    z-index: 99;
+    z-index: 200;
     color: white;
     position: fixed;
     overflow: visible;
     width: 100%;
     border: 0;
     display: flex;
-    background: rgb(12, 46, 198);
+    background: rgb(46, 74, 202);
     border-bottom: 5px solid rgb(255, 255, 0);
     transition: 0.7s;
 }
@@ -688,6 +676,7 @@ main .social-icons li{
 }
 
 #input {
+    display: block;
     font-size: 35px;
     color: #ffffff;
     text-shadow:
@@ -695,7 +684,6 @@ main .social-icons li{
       2px 3px 0 #000,
       2px 3px 0 #000,
       2px 3px 0 #000;
-    
     margin-top: -500px;
     margin-left: 350px;
 }
@@ -717,8 +705,8 @@ main .social-icons li{
 
 #redes1 {
     height: 150px;
-    background: rgb(12, 46, 198);
-    margin-top: -550px;
+    background: rgb(46, 74, 202);
+    margin-top: -583px;
 }
 .icono-social {
     margin-top: 140px;

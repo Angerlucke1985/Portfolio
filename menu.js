@@ -1,11 +1,8 @@
-/*
+// Tiempo de carga //
 
-document.addEventListener("contextmenu", function (e){
-    e.preventDefault();
-    alert("El click derecho está deshabilitado." );
-}, false);
 
-*/
+// Función para mostrar un mensaje de bienvenida personalizado
+
 
 
 

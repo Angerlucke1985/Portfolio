@@ -32,8 +32,8 @@
 #contacto-tit:after, .tit-proyectos:after {
    content: '';
    position: absolute;
-   width: 13%;
-   margin-left: 44%;
+   width: 11%;
+   margin-left: 45%;
    transform: scaleX(0);
    height: 6px;
    bottom: 0;
@@ -47,7 +47,7 @@
    position: absolute;
    width: 28%;
    margin-left: 39%;
-   top: 220px;
+   top: 219px;
    transform: scaleX(0);
    height: 6px;
    bottom: 0;
@@ -86,7 +86,6 @@
    transform-origin: bottom left;
    top: 270px;
 }
-
 .habilidades-tit:hover:after {
    transform: scaleX(1);
    transform-origin: bottom left;
@@ -96,7 +95,7 @@
 .habilidades-tit:after {
    content: '';
    position: absolute;
-   width: 13%;
+   width: 8%;
    margin-left: 43%;
    z-index: 99;
    top: 592px;

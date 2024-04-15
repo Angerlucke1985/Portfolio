@@ -1,4 +1,71 @@
+/*Responsive*/
+@media only screen and (max-width: 768px) {
+
+    header {
+        text-align: center;
+    }
+    
+
+    #navegador {
+
+        display: block;
+    }
+
+    #menu-horizontal {
+
+        display: block;
+    }
+
+    #menu-vertical {
+        display: none;
+    }
+
+    .icon-nav,
+    .icon-nav3 {
+        display: none;
+    }
+
+    #hero {
+        padding: 20px;
+    }
+
+    .seccionn1 {
+        margin-top: 00px;
+        display: block;
+    }
+
+    .ft {
+        width: 100%;
+        height: auto;
+    }
+
+    .descripcion {
+
+        font-size: 14px;
+    }
+
+    .habilidades-tit {
+        font-size: 18px;
+    }
+
+    #seccion3 {
+ 
+        padding: 20px;
+    }
+
+    #seccion3-container {
+
+    }
+    
+    .img-footer {
+        text-align: center;
+    }
+}
+
+/**/
+
 *{
+    
     margin: center;
 
     box-sizing: border-box;
@@ -9,11 +76,12 @@ html{
     scroll-behavior: smooth;
 }
 body {
-
+    margin: 0;
+    padding: 0;
 }
 body::-webkit-scrollbar {
 
-    width: 10px;
+
 }
 body::-webkit-scrollbar-thumb {
     border-radius: 5px;
@@ -39,7 +107,7 @@ body::-webkit-scrollbar-thumb {
 
 /*seccion 2*/
 #seccion2 {
-    margin-top: 160px;
+    margin-top: 60px;
     background: url("/fondo/fondo del mar.jpg");
     overflow: visible;
     font-size: 30px;
@@ -57,6 +125,7 @@ body::-webkit-scrollbar-thumb {
 .fondo2r {
     overflow: hidden;
     width: 1508px;
+    height: 830px;
 
 }
 .fondo2r {
@@ -146,34 +215,33 @@ body::-webkit-scrollbar-thumb {
 
 /**/
 
-#seccion3 {
 
-}
 #aqui {
     margin-top: 100px;
 }
 #fondo3 {
+    display:block;
     margin-left: 1%;
-    margin-top: 20px;
+    margin-top: 40px;
+
+}
+.img-fondo3 {
+    margin-top: 30px;
 }
 .texto {
     
 }
 
-
-.seccion3-container {
-
-}
-.seccion3-cont {
-
+.skills {
 
 }
-.textoIconos3{
 
-} 
 #fondo1 {
-    margin-top: 30px;
+    
+    background-size: cover;
+    background-position: center;
 
+    margin-top: 40px;
     width: 1510px;
     height: 800px;
 }
@@ -220,7 +288,19 @@ body::-webkit-scrollbar-thumb {
 }
 .skills {
     display: flex;
-    padding-top: 15%;
+    padding-top: 5px;
+    margin-left: 110px;
+}
+.habilidades-tit {
+    color: #ffffff;
+    text-shadow:
+      2px 2px 0 #000,
+      2px 2px 0 #000,
+      2px 2px 0 #000,
+      2px 2px 0 #000;
+    margin-left: 110px;
+    font-size: 30px;
+    margin-top: 60px;
 }
 
 .habilidades-container{
@@ -236,7 +316,6 @@ nav {
     margin-left: 35%;
     height: 100px;
     display: flex;
-
     justify-content: center;
     align-items: center;
 }
@@ -282,7 +361,7 @@ dsa{
       2px 2px 0 #000,
       2px 2px 0 #000,
       2px 2px 0 #000;
-    margin-left: -70px;
+    margin-left: -10vh;
 }
 #menu-vertical > li > a {
     position: absolute;
@@ -317,7 +396,7 @@ dsa{
 #menu-vertical li:hover{
     transform: scaleX(1);
     transition: 0.8s;
-    background-color: #d1cfcf;
+    background-color: #ffff00;
     
 }
 
@@ -430,23 +509,27 @@ dsa{
 /* estilos del header */
 
 #rayito {
-    padding-left: 100px;
+    margin-left: 100px;
     margin-top: 2%;
+}
+
+nav {
+    position: sticky;
 }
 
 header{
 
+    padding-left: -100vh;
     z-index: 99;
-    margin-top: -10px;
     color: white;
     position: fixed;
     overflow: visible;
     width: 100%;
+    border: 0;
     display: flex;
-    background: rgb(204, 25, 25);
+    background: rgb(12, 46, 198);
     border-bottom: 5px solid rgb(255, 255, 0);
     transition: 0.7s;
-
 }
 
 header li{
@@ -461,13 +544,12 @@ header ul {
     
 }
 header ul li:hover{
-    background-color: #b8b8b8;
+    background-color: #fafd33;
     cursor: pointer;
     border: 1px solid rgb(253, 252, 251);
     border-radius: 10px;
     font-weight:bold;
     color: rgb(255, 255, 255);
-
 }
 #logo img{
     border-radius: 50%;
@@ -521,6 +603,7 @@ header ul li:hover{
     padding-left: 12%;
 }
 .nombre {
+
     margin-left: 8%;
     font-weight:lighter;
 }
@@ -528,6 +611,7 @@ header ul li:hover{
     margin-top: -20px;
 }
 #nombreynick {
+    margin-top: -1cm;
     color: #fff;
     text-shadow:
       3px 3px 0 #000,
@@ -543,12 +627,13 @@ header ul li:hover{
 
 }
 .descripcion1 {
+    margin-top: -10px;
     color: #fff;
     text-shadow:
-      1px 1px 0 #000,
-      1px 1px 0 #000,
-      1px 1px 0 #000,
-      1px 1px 0 #000;
+      2px 2px 0 #000,
+      2px 2px 0 #000,
+      2px 2px 0 #000,
+      2px 2px 0 #000;
     display: block;
     height: 200px;
     overflow-y: scroll;
@@ -578,9 +663,9 @@ main{
     list-style: none;
 }
 #icons-socials {
+    
     display: flex;
-    margin-left: 430px;
-
+    margin-left: 30vw;
 }
 .social-icons li img{
     width: 80px;
@@ -632,11 +717,12 @@ main .social-icons li{
 
 #redes1 {
     height: 150px;
-    background: rgb(204, 25, 25);
-    margin-top: -500px;
+    background: rgb(12, 46, 198);
+    margin-top: -550px;
 }
 .icono-social {
     margin-top: 140px;
+
 
 }
 #redes3 {

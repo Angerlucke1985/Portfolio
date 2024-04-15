@@ -1,4 +1,4 @@
-Swal.fire({
+/*Swal.fire({
   title: '<video class="gif" src="img del principio/Gif intro.mp4" autoplay muted playinline loop>',
   text: '¡Bienvenido/a!',
   // html:

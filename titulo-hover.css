@@ -47,7 +47,7 @@
    position: absolute;
    width: 28%;
    margin-left: 39%;
-   top: 210px;
+   top: 240px;
    transform: scaleX(0);
    height: 6px;
    bottom: 0;
@@ -62,7 +62,7 @@
    width: 15%;
    margin-left: 41%;
    z-index: 99;
-   top: 270px;
+   top: 300px;
    transform: scaleX(0);
    height: 6px;
    bottom: 0;
@@ -77,15 +77,35 @@
 }
 
 .nombre:hover:after {
-   top: 210px;
+   top: 240px;
    transform: scaleX(1);
    transform-origin: bottom left;
 }
 .nick:hover:after {
    transform: scaleX(1);
    transform-origin: bottom left;
-   top: 270px;
+   top: 300px;
 }
 
+.habilidades-tit:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+   top: 572px;
+}
 
+.habilidades-tit:after {
+   content: '';
+   position: absolute;
+   width: 13%;
+   margin-left: 43%;
+   z-index: 99;
+   top: 572px;
+   transform: scaleX(0);
+   height: 6px;
+   bottom: 0;
+   left: 0;
+   background-color: #1ee607;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
 
+}

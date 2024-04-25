@@ -1,64 +1,21 @@
 /*Responsive*/
 @media only screen and (max-width: 768px) {
-
-    header {
-        text-align: center;
-    }
-    
-
+    /* Adjustments for smaller screens */
     #navegador {
-
-        display: block;
+        margin-left: 0;
+        font-size: 20px;
     }
-
-    #menu-horizontal {
-
-        display: block;
+    .nombre {
+        margin-left: 0;
     }
-
-    #menu-vertical {
-        display: none;
+    .informacion-contenedor {
+        margin-left: 0;
     }
-
-    .icon-nav,
-    .icon-nav3 {
-        display: none;
+    .skills {
+        margin-left: 0;
     }
-
-    #hero {
-        padding: 20px;
-    }
-
-    .seccionn1 {
-        margin-top: 00px;
-        display: block;
-    }
-
-    .ft {
-        width: 100%;
-        height: auto;
-    }
-
-    .descripcion {
-
-        font-size: 14px;
-    }
-
-    .habilidades-tit {
-        font-size: 18px;
-    }
-
-    #seccion3 {
-        z-index: 30;
-        padding: 20px;
-    }
-
-    #seccion3-container {
-
-    }
-    
-    .img-footer {
-        text-align: center;
+    .redes-3 {
+        margin-top: 20px;
     }
 }
 
@@ -176,8 +133,8 @@ body::-webkit-scrollbar-thumb {
     filter: grayscale(0%);
 }
 #perfil1  {
-    margin-top: 40px;
-    margin-left: -8%;
+    margin-top: 5px;
+    margin-left: -10%;
 }
 .boton2{
     height: 65px;
@@ -226,15 +183,14 @@ body::-webkit-scrollbar-thumb {
 
 }
 #fondo1 {
-    
+
     background-size: cover;
     background-position: center;
 
-    margin-top: 10px;
-    width: 1510px;
-    height: 800px;
-}
 
+    width: 1510px;
+    height: 110vh;
+}
 
 .texto-1  {
     color: white;

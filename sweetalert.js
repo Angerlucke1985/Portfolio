@@ -8,8 +8,8 @@ window.addEventListener('load', function() {
 
 //Mensaje//
 function mostrarMensaje() {
-  var nombre = prompt("Introduce tu nombre:");
-  var genero = prompt("Introduce tu género (hombre/mujer):");
+  var nombre = prompt("Hello! Introduce your name:");
+  var genero = prompt("Now enter your gender (man/woman):");
   var mensaje = "";
   
   if (genero.toLowerCase() === "hombre") {
@@ -22,7 +22,7 @@ function mostrarMensaje() {
 
   Swal.fire({
       title: '<video class="gif" src="img del principio/Gif intro.mp4" autoplay muted playinline loop>',
-      html: '<p>¡Bienvenid<span id="genero">' + (genero.toLowerCase() === "hombre" ? "o" : "a") + '</span> a mi portafolio, <span id="nombre">' + nombre + '</span>!</p>',
+      html: '<p>Welcome to my portfolio, <span id="nombre">' + nombre + '</span>!</p>',
       allowOutsideClick: false,
       // Llamar a la función para mostrar el mensaje de bienvenida
       // html:

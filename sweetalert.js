@@ -13,6 +13,7 @@ function mostrarMensaje() {
   var genero = prompt("Now enter your gender (man/woman):");
   var mensaje = "";
   
+  /*
   if (genero.toLowerCase() === "hombre") {
       mensaje = "Bienvenido, " + nombre + "!";
   } else if (genero.toLowerCase() === "mujer") {
@@ -20,7 +21,7 @@ function mostrarMensaje() {
   } else {
       mensaje = "Bienvenid@, " + nombre + "!";
   }
-
+  */
   Swal.fire({
       title: '<video class="gif" src="img del principio/Gif intro.mp4" autoplay muted playinline loop>',
       html: '<p>Welcome to my portfolio, <span id="nombre">' + nombre + '</span>!</p>',

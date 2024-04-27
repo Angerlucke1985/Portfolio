@@ -6,6 +6,7 @@ window.addEventListener('load', function() {
   document.getElementById('content').style.display = 'block';
 });
 
+
 //Mensaje//
 function mostrarMensaje() {
   var nombre = prompt("Hello! Introduce your name:");
